@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+    font: 30px 'Ayuthaya', sans-serif;
+    color: #4A90E2;
+    background: url('../imagenes/elefante.png') no-repeat center center;
+    width: 563px;
+    height: 104px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+h2{
+    font: 20px 'Ayuthaya', sans-serif;
+    text-align: center;
+    color: #4A90E2;
+}
+.navbar-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#4A90E2;
+    transition: 0.2s;
+    margin-top:1px;
+}
+
+.navbar-item:hover::after{width:100%;}
+
+
+  a:hover {
+    color: #4A90E2;
+    text-decoration: none;
+
+}
+
+.navbar-link{padding:15px 5px;transition:0.2s;}
+
+.navbar-nav .nav-link {
+   
+    color:#000;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+  
+  width:100%;
+  height:51px; 
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #4A90E2;
+   
+}
+.submenu{
+  padding: 1%;
+  background: #E6F9F5; 
+}
+
+.navbar-nav{
+   
+  margin: auto;
+  width: 100%;      
+}
+
+.nav li{
+ margin: auto;
+ background: transparent;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+/*----contenido---*/
+
+
+.proyectosUX{
+  margin-top: 3rem;
+  list-style: none;
+  text-decoration: none;
+ 
+}
+
+.proyectosFront{
+  margin-top: 3rem;
+  height: 648.078px;
+  width: auto;
+  text-decoration: none;
+  list-style: none;
+}
+.acerca-tab{
+  margin-top: 3rem;
+  text-decoration: none;
+  list-style: none;
+}
+.tab-pane{
+  width: 100% !important;
+  text-align: -webkit-center;
+}
+.itm{
+margin:2%;
+
+}
+.foto{
+  width: 65%;
+}
+
+.foto-1{
+  width: 70%;
+}
+.foto-2{
+  width: 110%;
+}
+.foot{
+  background: #174375;
+  margin-top: %;
+  /*height: 150px;*/
+}
+
+.contact-1{
+margin-top: 3%;
+margin:1.5%;
+color:#ffff;
+font: 20px 'Ayuthaya', sans-serif;
+  
+}
+.contact-2{
+  margin-right:1.5% !important;
+  font-size: 14px;
+    
+  }
+.white{
+ color:#ffff !important;
+}
+
+.fab, .fas, .far{
+  color:#ffff;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+/*min-height: 100%;*/
+/*margin-bottom: -150px;*/
+  
+}
+.tab-content {
+  margin-top: 1.5%;
+}
+.titulo{
+  margin-top:1%;
+}
+ p .logo{
+  display:none;
+  font: 30px 'Ayuthaya', sans-serif;
+  color: #4A90E2;
+  background: url('../imagenes/elefante.png') no-repeat center center;
+  width: 563px;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.titulo-2{
+display:none;
+}
+.experiencia{
+  margin-top:3%;
+}
+
+

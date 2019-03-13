@@ -1,0 +1,17 @@
+@media screen and (min-width: 300px) and (max-width: 980px) {
+    
+ 
+      h1{
+          display: none;
+      }
+      .titulo-2{
+       
+        display: block!important;
+      
+      }
+      .tit-2{
+        font: 13px 'Ayuthaya', sans-serif;
+        color: #BD10E0;
+      }
+      
+    }
