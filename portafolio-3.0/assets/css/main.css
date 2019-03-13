@@ -10,7 +10,7 @@ html, body {
 }
 
 h1{
-    font: 30px 'Ayuthaya', sans-serif;
+    font: 35px 'Ayuthaya', sans-serif;
     color: #4A90E2;
     background: url('../imagenes/elefante.png') no-repeat center center;
     width: 563px;
@@ -20,7 +20,7 @@ h1{
     padding: 50px 0 0 0;
 }
 h2{
-    font: 20px 'Ayuthaya', sans-serif;
+    font: 25px 'Ayuthaya', sans-serif;
     text-align: center;
     color: #4A90E2;
 }
@@ -43,11 +43,15 @@ h2{
 
 }
 
-.navbar-link{padding:15px 5px;transition:0.2s;}
+.navbar-link{
+padding:15px 5px;transition:0.2s;
+color:#BD10E0;
+font-size: 25px;
+}
 
 .navbar-nav .nav-link {
    
-    color:#000;
+   
     font-weight:bold;
     font-size:18px;
 }
@@ -88,7 +92,12 @@ h2{
   text-decoration: none;
  
 }
-
+.img-perfil{
+width: 85%;
+}
+.conocimientos{
+  margin-top: 1.5%;
+}
 .proyectosFront{
   margin-top: 3rem;
   height: 648.078px;
@@ -171,8 +180,15 @@ font: 20px 'Ayuthaya', sans-serif;
 .titulo-2{
 display:none;
 }
-.experiencia{
-  margin-top:3%;
+.descarga{
+margin-left: 1.5%;
+color:#BD10E0 !important;
 }
 
-
+.tit-2{
+  color:#4A90E2;
+  font-size: 18px;
+}
+.nab-3{
+  display:none
+}

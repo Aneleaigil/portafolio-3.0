@@ -5,13 +5,35 @@
           display: none;
       }
       .titulo-2{
-       
+        margin-left: 1.5rem;
         display: block!important;
       
       }
-      .tit-2{
+      .tit-3{
         font: 13px 'Ayuthaya', sans-serif;
         color: #BD10E0;
       }
-      
+      .navbar-brand {
+        margin-right: 0px !important;
+       
     }
+    .navbar-link{
+      padding:15px 5px;transition:0.2s;
+      color:#BD10E0;
+      font-size: 15px !important;
+      }
+      .bton{
+        color:#BD10E0;
+      }
+  }
+
+
+
+  @media screen (min-width: 768px) and (max-width:1024px){
+    .nab-3{
+      display: block;
+    }
+    .titulo-2{
+      display: none;
+    }
+  }
