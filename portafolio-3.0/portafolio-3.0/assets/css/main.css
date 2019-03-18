@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+    font: 35px 'Ayuthaya', sans-serif;
+    color: #4A90E2;
+    background: url('../imagenes/elefante.png') no-repeat center center;
+    width: 563px;
+    height: 104px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+h2{
+    font: 25px 'Ayuthaya', sans-serif;
+    text-align: center;
+    color: #4A90E2;
+}
+.navbar-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#4A90E2;
+    transition: 0.2s;
+    margin-top:1px;
+}
+
+.navbar-item:hover::after{width:100%;}
+
+
+  a:hover {
+    color: #4A90E2;
+    text-decoration: none;
+
+}
+
+.navbar-link{
+padding:15px 5px;transition:0.2s;
+color:#BD10E0;
+font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+   
+   
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+  
+  width:100%;
+  height:51px; 
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #4A90E2;
+   
+}
+.submenu{
+  padding: 1%;
+  background: #E6F9F5; 
+}
+
+.navbar-nav{
+   
+  margin: auto;
+  width: 100%;      
+}
+
+.nav li{
+ margin: auto;
+ background: transparent;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+/*----contenido---*/
+
+.proyectosUX{
+  margin-top: 3rem;
+  list-style: none;
+  text-decoration: none;
+}
+.img-perfil{
+width: 85%;
+}
+.conocimientos{
+  margin-top: 1.5%;
+}
+.proyectosFront{
+  margin-top: 3rem;
+  height: 648.078px;
+  width: auto;
+  text-decoration: none;
+  list-style: none;
+}
+.acerca-tab{
+  margin-top: 3rem;
+  text-decoration: none;
+  list-style: none;
+}
+.tab-pane{
+  width: 100% !important;
+  text-align: -webkit-center;
+}
+.itm{
+margin-top:1%;
+
+}
+.foto{
+  width: 100% !important;
+}
+
+.foto-1{
+  width: 70%;
+}
+.foto-2{
+  width: 110%;
+}
+.foot{
+  background: #174375;
+  margin-top: %;
+  /*height: 150px;*/
+}
+.foot-2{
+  background: #174375;
+  margin-top: %;
+  /*height: 150px;*/
+}
+.contact-1{
+margin-top: 3%;
+margin:1.5%;
+color:#ffff;
+font: 20px 'Ayuthaya', sans-serif;
+  
+}
+.contact-2{
+  margin-right:1.5% !important;
+  font-size: 14px;
+    
+  }
+.white{
+ color:#ffff !important;
+}
+
+.fab, .fas, .far{
+  color:#ffff;
+}
+.wrapper{
+  width: 100%;
+  height: auto;
+/*min-height: 100%;*/
+/*margin-bottom: -150px;*/
+  
+}
+.tab-content {
+  margin-top: 1.5%;
+  margin-bottom: 1rem;
+}
+.titulo{
+  margin-top:1%;
+}
+ p .logo{
+  display:none;
+  font: 30px 'Ayuthaya', sans-serif;
+  color: #4A90E2;
+  background: url('../imagenes/elefante.png') no-repeat center center;
+  width: 563px;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.titulo-2{
+display:none;
+}
+.descarga{
+margin-left: 1.5%;
+color:#BD10E0 !important;
+}
+
+.tit-2{
+  color:#4A90E2;
+  font-size: 18px;
+}
+.nab-3{
+  display:none
+  }
+ 
+
+/*-----------------css-------------*/
+.box9{
+  background:#000;
+  text-align:center;
+  position:relative;
+  width: 70%; 
+}
+.biceSeguro{
+  margin-top: 5%;
+}
+.back{
+  margin-top: 3%; 
+}
+.tit-bice{
+  margin: 2%;
+}
+.tit-cont{
+color: #BD10E0;
+
+}
+.fa-home{
+  color: #BD10E0;
+  margin-right: 1rem;
+}
+.tit-bice{
+  color:#4A90E2;
+}
+
+
+
+.box9 img{width:100%;height:auto}
+.box9:hover img{opacity:.5}
+.box9 .box-content{padding:30px 10px 30px 0;background:rgba(0,0,0,.65);position:absolute;top:0;left:0;bottom:0;right:0;opacity:0}
+.box9:hover .box-content{top:10px;left:10px;bottom:10px;right:10px;opacity:1}
+.box9 .title{font-weight:700;color:#fff;line-height:17px;margin:5px 0;position: relative; bottom:-30%; text-align: center;}
+.box10 .icon li a,.box9 .icon li a{line-height:35px;border-radius:50%}
+.box9 .icon{list-style:none;padding:0;margin:0;position: relative; top:40%}
+.box9 .icon li{display:inline-block;opacity:0;transform:translateY(40px); }
+.box9:hover .icon li{opacity:1;transform:translateY(0)}
+.box9:hover .icon li:first-child{transition-delay:.1s}
+.box9:hover .icon li:nth-child(2){transition-delay:.2s}
+.box9 .icon li a{display:block;width:35px;height:35px;background:#f39c12;font-size:20px;color:#000;margin-right:5px;transition:all .35s ease 0s}
+.box9 .icon a:hover{background:#fff}
+
+@media only screen and (max-width:990px){
+  .box9{margin-bottom:20px; width: 100%;}
+
+
+}
+
+
