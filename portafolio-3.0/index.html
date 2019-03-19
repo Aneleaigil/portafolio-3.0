@@ -15,7 +15,7 @@
 
 <title>Portfolio Ligia Elena</title>
 </head>
-<body>
+<body id="top" data-spy="scroll">
 
   <div class="container-fluid">
     <header class="row titulo">
@@ -27,20 +27,19 @@
       </div>
     </div>
     </header>
-    
+   
     <nav class="navbar navbar-expand-lg submenu ">
        
       <a class="navbar-brand" href="#"><img class="img-fluid"  src="assets/imagenes/titulo.png" style="display:none" ></a>
 
      <div class="titulo-2"><img class="img-fluid "src="assets/imagenes/logo2.png"> 
-      <a class="navbar-brand " href="#"><span class="tit-2">Ligia Cautela</span></a>
+      <a class="navbar-brand " href="#"><span class="tit-3">Ligia Cautela</span></a>
+      <img class="img-fluid "src="assets/imagenes/logo2.png"> 
      </div>
-      
-
-      <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3 collapsed navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" 
+      <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3 collapsed navbar-toggler collapsed bton" type="button" data-toggle="collapse" data-target="#navbarNav" 
       aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Ligia Cautela</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button>
  
-        <div class="navbar-collapse collapse" id="navbarNav" style="">
+<div class="navbar-collapse collapse" id="navbarNav" style="">
     <ul class=" nav navbar-nav  nav-tabs" id="myTab" role="tablist">
       <li class="navbar-item">
         <a class="navbar-link active" id="ux-tab" data-toggle="tab" href="#ux" role="tab" aria-controls="ux" aria-selected="true">Proyectos UX</a>
@@ -52,89 +51,161 @@
       </li>
     </ul>
   </div>
-    
+
 </nav>
 <!--contenido de las secciones-->
-
-
 <div class="tab-content ">
   <div class="tab-pane active" id="ux" role="tabpanel" aria-labelledby="ux-tab">
 <ul class="proyectosUX container">
   <div class="row justify-content-between">
-    <li class="appBice col-sm ">
-      <a href="contenido.html" alt=""><img class="img-fluid itm foto"  src="assets/imagenes/biceapp.png" alt="" ></a>
-      </li>
-      <li class="pj col-sm">
-          <a href="#contenido"><img class="img-fluid itm foto" src="assets/imagenes/itau.png" alt=""></a>
-          </li>
+    <div class="col-sm caption capt-1">
+      <li class="box9">
+        <img class="img-fluid foto"  src="assets/imagenes/biceapp.png" alt="" >
+        <div class="box-content justify-content-center">
+            <h3 class="title ">Proyecto Bice</h3>
+            <ul class="icon ">
+                <li class="iconos-1"><a href="appBice.html" alt=""><i class="fa fa-search text-center"></i></a></li>
+                <!----li class="iconos-2"><a href="#"><i class="fa fa-link"></i></a></li-->
+            </ul>
         </div>
+       </li>
+      <!--li class="appBice">
+        <a class="lik" href="contenido.html" alt=""><img class="img-fluid itm foto"  src="assets/imagenes/biceapp.png" alt="" > 
+          <p class="mascara">Proyecto App Corredora de Seguros</p>
+        </a>
+        </li-->   
+    </div>
+
+    <div class="caption col-sm capt-1">
+        <li class="box9">
+            <img class="img-fluid foto"  src="assets/imagenes/itau.png" alt="" >
+            <div class="box-content">
+                <h3 class="title">Proyecto Itau</h3>
+                <ul class="icon">
+                    <li><a href="itau.html"><i class="fa fa-search"></i></a></li>
+                    <!----li><a href="#"><i class="fa fa-link"></i></a></li-->
+                </ul>
+            </div>
+           </li>
+      <!--li class="pj">
+        <a href="#contenido"><img class="img-fluid itm foto" src="assets/imagenes/itau.png" alt=""></a>
+        </li-->
+ 
+      </div>
+      
+</div>
   
       <div class="row justify-content-between">
-          <li class="wenuwork col-sm itm">
-              <a href="#contenido"><img class="b-img-fluid foto-1" src="assets/imagenes/wenuwork.png" alt=""></a>
-              </li>
-              <li class="sermaluc col-sm itm">
-                  <a href="#contenido"><img class="b-img-fluid foto-1" src="assets/imagenes/websermaluc.png" alt=""></a>
-                  </li>       
+          <div class="caption col-sm itm">
+          <li class="box9 wenuwork">
+              <img class="img-fluid foto"  src="assets/imagenes/wenuwork.png" alt="" >
+              <div class="box-content text-center">
+                  <h3 class="title text-justify-center">WenuWork </h3>
+                  <ul class="icon">
+                      <li><a href="Wenu-Work.html"><i class="fa fa-search"></i></a></li>
+                      <li><a href="https://marvelapp.com/38f12d9/screen/44543019" target="_blank"><i class="fa fa-link"></i></a></li>
+                  </ul>
+              </div>
+             </li>
+             </div>
+
+             <div class="caption col-sm itm">
+             <li class="box9 sermaluc">
+                <img class="img-fluid foto"  src="assets/imagenes/bankAhorro.png" alt="" >
+                <div class="box-content">
+                    <h3 class="title text-center"> Proyecto Bank Ahorro</h3>
+                    <ul class="icon">
+                        <li><a href="bankahorro.html"><i class="fa fa-search"></i></a></li>
+                        <li><a href="https://marvelapp.com/2dhha1g/screen/39119623" target="_blank"><i class="fa fa-link"></i></a></li>
+                    </ul>
                 </div>
+               </li>
+            </div>
+
+          
+      </div>
          
 </ul>
   </div>
 
 
   <div class="tab-pane container" id="front" role="tabpanel" aria-labelledby="front-tab">
-    <ul class="proyectosFront row ">
-      <li class="twitter col-sm">
-      <a><img class="img-fluid foto-2" src="assets/imagenes/twitter.png" alt="" ></a>
-      </li>
-      <li class="panda col-sm">
-          <a href="#contenido"><img class="img-fluid foto-2" src="assets/imagenes/panda.png" alt=""></a>
-          </li>
-              
-    </ul>
+   <ul class="proyectosFront row ">
+
+<div class="caption col-sm itm"> 
+  <li class="box9 twitter ">
+        
+    <img class="img-fluid foto-2" src="assets/imagenes/twitter.png" alt="" >
+    <div class="box-content text-center">
+        <h3 class="title ">Replica Twitter</h3>
+        <!--h3 class="title-2">Panda Desu</h3-->
+        <ul class="icon">
+            <!--li><a href="https://aneleaigil.github.io/twitter-reto/" target="_blank"><i class="fa fa-search"></i></a></li-->
+            <li><a href="https://aneleaigil.github.io/twitter-reto/" target="_blank"><i class="fa fa-link"></i></a></li>
+        </ul>
+        
+    </div>
+    </li>
   </div>
+
+
+  <div class="caption col-sm itm">
+      <li class="box9 panda">
+          <img class="img-fluid foto-2" src="assets/imagenes/panda.png" alt="">
+          <div class="box-content text-center">
+              <h3 class="title ">Maqueta HTML5/CSS3</h3>
+              <ul class="icon">
+                  <li><a href="https://aneleaigil.github.io/panda-desu/" target="_blank"><i class="fa fa-link"></i></a></li>
+          </div>
+      </li> 
+  </div>
+      </ul> 
+  </div>
+  
 
   <div class="tab-pane container" id="acerca" role="tabpanel" aria-labelledby="acerca-tab">
     <ul class="acerca-tab row">
-      <li class="perfil col-sm col-12-sm">
-      <a><img class="img-fluid img-thumbnail " src="assets/imagenes/ligia.png" alt="" ></a>
+      <li class="perfil col-sm col-6-sm">
+        
+      <a><img class="Responsive image img-thumbnail rounded img-perfil" src="assets/imagenes/ligia.png" alt="" ></a>
+      <div class="conocimientos "><H4 class="tit-2">Herramientas y conocimientos</H4>
+        <ul class="text-justify list-unstyled ">
+            <li ><p>Conocimiento  en  HTML,CSS, Javascript</p></li>
+            <li ><p>Manejo Skecth, figma, invision, marvel app </p></li>
+            <li><p>Métodologias ágiles, desing thinking, lean Ux</p></li>
+            <li ><p>Photoshop PSD, Ilustrator AI </p></li>
+            <li><p>Ingles intermedio-basico </p></li>           
+        </ul></div>
+      
+
       </li>
-      <li class="parrafo col-sm col-12-sm">
-          <h4 class="formación" >Formación</h4>
+      <li class="parrafo col-sm col-6-sm">
+          <h4 class="formación tit-2" >Formación</h4>
           <p class="text-justify">Naci en Venezuela un 23 de diciembre de 1985, curse estudios en la Universidad Alejandro de Humboldt, en Caracas , licenciatura en Publicidad, 
             luego de eso realice algunos cursos de diseño gráfico, organización de eventos, y recientemente la vida me llevo a actualizarme y a entrar al 
             mundo del diseño de iteracciones e interfaces, a través del bootcamp de Laboratoria del cual egrese en marzo del 2018 como diseñadora UX/UI, 
             y posteriormente realice un curso de marketing digital, y un workshop de AI (arquitectura de la información) y actualmente sigo participando y 
             realizando cursos online para mantenerme actualizada.</p>
 
-            <H4>Herramientas y conocimientos</H4>
-            <ul class="text-justify list-unstyled ">
-                <li ><p>Conocimiento  en  HTML,CSS, Javascript</p></li>
-                <li ><p>Manejo Skecth, figma, invision, marvel app </p></li>
-                <li><p>Métodologias ágiles, desing thinking, lean Ux</p></li>
-                <li ><p>Photoshop PSD, Ilustrator AI </p></li>
-                <li><p>Ingles intermedio-basico </p></li>
-              
-            </ul>
+            <H4 class="tit-2">Experiencia</H4>
+                
+                <p class="text-justify">En venezuela trabaje como analista de marketing en una agencia de publicidad exterior, coordinando la instalación de campañas publicitarias y realizando la propuesta de donde serian los puntos permisados a ser instalados, 
+                  luego administre una página web de venta de productos electronicos a una caja de compensación en venezuela, y finalmente en santiago de chile he participado en varios proyectos, unos propios como el de movieapp y otros para diferentes clientes como Banco Itau, Banco Bice, WenuWork</p>
 
+                <a href="https://drive.google.com/open?id=1g2Zw9yjTowd4muILIujdJ4-V8x2kY8U4" target="_blank"><img class="img-fluid logo-cv" src="assets/imagenes/logo-cv.png"><span class="descarga"><strong>Descargar CV</strong></span></a>
           </li>
-          <div class="row">
-              <li class="experiencia col-sm">
-                  <H4>Experiencia</H4>
-                  
-                  <p class="text-justify">En venezuela trabaje como analista de marketing en una agencia de publicidad exterior, coordinando la instalación de campañas publicitarias y realizando la propuesta de donde serian los puntos permisados a ser instalados, 
-                    luego administre una página web de venta de productos electronicos a una caja de compensación en venezuela, y finalmente en santiago de chile he participado en varios proyectos, unos propios como el de movieapp y otros para diferentes clientes como Banco Itau, Banco Bice, WenuWork</p>
-                   
-                </li> 
-               
-          </div> 
     </ul>
+
+    <div class="row">
+       
+     </div> 
+     
   </div>
-
+  
 </div>
 
 </div>
-<!--div class="push"></div--->
+
 
 <footer class="foot">
  
