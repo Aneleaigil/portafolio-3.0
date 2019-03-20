@@ -26,8 +26,24 @@
         color:#BD10E0;
         display: block;
       }
+      .tit-bice2{
+        display: block !important;
+        color:#4A90E2;
+      }
+      .tit-bice{
+        display: none;
+      }
+     
+      .title{
+        display: none;
+      }
+     
+      .tit-cel{
+        display:block;
+        color:#ffff;
+      }
+      
   }
-
 
 
   @media screen (min-width: 700px) and (max-width:1024px){
