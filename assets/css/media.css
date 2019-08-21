@@ -35,14 +35,21 @@
       }
      
       .title{
-        display: none;
+       font-size: 14px;
       }
      
       .tit-cel{
         display:block;
         color:#ffff;
       }
-      
+
+      .file-1{
+       margin-bottom: 0px;
+      }
+       .file-2{
+       margin-bottom: 20px;
+       
+      }
   }
 
 
@@ -58,6 +65,9 @@
       display: block;
     }
   }
+
+  
+
   
 
  

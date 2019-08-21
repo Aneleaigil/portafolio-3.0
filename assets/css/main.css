@@ -66,7 +66,7 @@ font-size: 25px;
 }
 .submenu{
   padding: 1%;
-  background: #E6F9F5; 
+ /* background: #E6F9F5;*/
 }
 
 .navbar-nav{
@@ -91,8 +91,10 @@ font-size: 25px;
   text-decoration: none;
 }
 .img-perfil{
-width: 85%;
+width: 100%;
+margin-bottom: 15px;
 }
+
 .conocimientos{
   margin-top: 1.5%;
 }
@@ -165,10 +167,18 @@ font: 20px 'Ayuthaya', sans-serif;
 
 .tab-content {
   margin-top: 1.5%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .titulo{
-  margin-top:1%;
+ /* margin-top:1%;*/
+}
+.hme{
+  width: 30px;
+}
+.logo{
+  background-color: #e6f9f5;
+  padding: 15px;
+  margin-bottom: 15px;
 }
  p .logo{
   display:none;
@@ -192,11 +202,16 @@ color:#BD10E0 !important;
 .tit-2{
   color:#4A90E2;
   font-size: 18px;
-}
+  margin-bottom: 20px;
+  text-align: left;
+ 
+  }
 .nab-3{
   display:none
   }
- 
+ .file-1{
+  margin-bottom: 20px
+ }
 
 /*-----------------css-------------*/
 .box9{
@@ -226,8 +241,15 @@ color:#BD10E0 !important;
 }
 .tit-cont{
 color: #BD10E0;
+}
+
+.tit-cont-2{
+color: #BD10E0;
+margin-bottom: 1rem;
 
 }
+
+
 .fa-home{
   color: #BD10E0;
   margin-right: 1rem;
@@ -253,7 +275,7 @@ display: none;
 .box9:hover img{opacity:.5}
 .box9 .box-content{padding:30px 10px 30px 0;background:rgba(0,0,0,.65);position:absolute;top:0;left:0;bottom:0;right:0;opacity:0}
 .box9:hover .box-content{top:10px;left:10px;bottom:10px;right:10px;opacity:1}
-.box9 .title{font-weight:700;color:#fff;line-height:17px;margin:5px 0;position: relative; bottom:-30%; text-align: center;}
+.box9 .title{font-weight:700;color:#fff;line-height:17px;margin:5px 0;position: relative; bottom:-30%; text-align: center;  font-size: 16px;}
 .box10 .icon li a,.box9 .icon li a{line-height:35px;border-radius:50%}
 .box9 .icon{list-style:none;padding:0;margin:0;position: relative; top:40%}
 .box9 .icon li{display:inline-block;opacity:0;transform:translateY(40px); }
@@ -275,7 +297,7 @@ display: none;
 .box-8:hover img{opacity:.5}
 .box-8 .box-content{padding:30px 10px 30px 0;background:rgba(0,0,0,.65);position:absolute;top:0;left:0;bottom:0;right:0;opacity:0}
 .box-8:hover .box-content{top:10px;left:10px;bottom:10px;right:10px;opacity:1}
-.box-8 .title{font-weight:700;color:#fff;line-height:17px;margin:5px 0;position: relative; bottom:-30%; text-align: center;}
+.box-8 .title{font-weight:700;color:#fff;line-height:17px;margin:5px 0;position: relative; bottom:-30%; text-align: center; font-size: 16px;}
 .box10 .icon li a,.box9 .icon li a{line-height:35px;border-radius:50%}
 .box-8 .icon{list-style:none;padding:0;margin:0;position: relative; top:40%}
 .box-8 .icon li{display:inline-block;opacity:0;transform:translateY(40px); }
@@ -318,3 +340,4 @@ width: 100%;
   color:#4A90E2;
   margin-right: .5rem;
 }
+
