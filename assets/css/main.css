@@ -86,7 +86,7 @@ font-size: 25px;
 /*----contenido---*/
 
 .proyectosUX{
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   list-style: none;
   text-decoration: none;
 }
@@ -249,7 +249,11 @@ margin-bottom: 1rem;
 
 }
 
+.title-3{
+  color:#4A90E2;
+  font-size: 14px;
 
+}
 .fa-home{
   color: #BD10E0;
   margin-right: 1rem;
