@@ -9,6 +9,13 @@
         display: block!important;
       
       }
+      .img-sm{
+        width: 50px;
+      }
+     /* .item-1{
+      margin-left:30px;
+      }*/
+
       .tit-3{
         font: 13px 'Ayuthaya', sans-serif;
         color: #BD10E0;
@@ -19,7 +26,7 @@
     }
     .navbar-link{
       padding:15px 5px;transition:0.2s;
-      color:#BD10E0;
+      color:#e552b6;
       font-size: 15px !important;
       }
       .bton{
@@ -49,6 +56,16 @@
        .file-2{
        margin-bottom: 20px;
        
+      }
+      .nav li{
+       margin: 0px;
+       background: transparent;
+}
+      .submenu{
+        background-color: 
+      }
+      .nav-tabs{
+        align-content: center;
       }
   }
 

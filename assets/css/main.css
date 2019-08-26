@@ -11,8 +11,8 @@ html, body {
 
 h1{
     font: 35px 'Ayuthaya', sans-serif;
-    color: #4A90E2;
-    background: url('../imagenes/elefante.png') no-repeat center center;
+    color: #ff1a40;
+    background: url('../imagenes/elefante-2.png') no-repeat center center;
     width: 563px;
     height: 104px;
     margin: 0 auto;
@@ -22,7 +22,7 @@ h1{
 h2{
     font: 25px 'Ayuthaya', sans-serif;
     text-align: center;
-    color: #4A90E2;
+    color:#ff1a40;
 }
 .navbar-item::after{
     content:'';
@@ -38,14 +38,14 @@ h2{
 
 
   a:hover {
-    color: #4A90E2;
+    color: #96a5e0;
     text-decoration: none;
 
 }
 
 .navbar-link{
 padding:15px 5px;transition:0.2s;
-color:#BD10E0;
+color:#96a5e0;
 font-size: 25px;
 }
 
@@ -76,7 +76,8 @@ font-size: 25px;
 }
 
 .nav li{
- margin: auto;
+
+ /*margin: auto;*/
  background: transparent;
 }
 
@@ -85,7 +86,12 @@ font-size: 25px;
 }
 /*----contenido---*/
 
-
+.item-2{
+  margin-left: 30px;
+}
+.item-1{
+  margin-left:40px;
+}
 
 .proyectosUX{
   margin-top: 1.5rem;
@@ -131,7 +137,7 @@ margin-top:1%;
   width: 110%;
 }
 .foot{
-  background: #174375;
+  background: #ff1a40;
   margin-top: %;
   /*height: 150px;*/
 }
@@ -178,7 +184,7 @@ font: 20px 'Ayuthaya', sans-serif;
   width: 30px;
 }
 .logo{
-  background-color: #e6f9f5;
+  background-color: #ff1a402e;
   padding: 15px;
   margin-bottom: 15px;
 }
@@ -186,7 +192,7 @@ font: 20px 'Ayuthaya', sans-serif;
   display:none;
   font: 30px 'Ayuthaya', sans-serif;
   color: #4A90E2;
-  background: url('../imagenes/elefante.png') no-repeat center center;
+  background: url('../imagenes/elefante-2.png') no-repeat center center;
   width: 563px;
   height: 104px;
   margin: 0 auto;
@@ -242,7 +248,7 @@ color:#BD10E0 !important;
   margin: 2%;
 }
 .tit-cont{
-color: #BD10E0;
+color:#e552b6;
 }
 
 .tit-cont-2{
@@ -252,7 +258,7 @@ margin-bottom: 1rem;
 }
 
 .title-3{
-  color:#4A90E2;
+  color:#e552b6;
   font-size: 14px;
 
 }
