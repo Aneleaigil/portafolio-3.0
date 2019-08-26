@@ -11,7 +11,7 @@ html, body {
 
 h1{
     font: 35px 'Ayuthaya', sans-serif;
-    color: #ff1a40;
+    color: #e552b6;
     background: url('../imagenes/elefante-2.png') no-repeat center center;
     width: 563px;
     height: 104px;
@@ -22,7 +22,7 @@ h1{
 h2{
     font: 25px 'Ayuthaya', sans-serif;
     text-align: center;
-    color:#ff1a40;
+    color:#e552b6;
 }
 .navbar-item::after{
     content:'';
@@ -137,7 +137,8 @@ margin-top:1%;
   width: 110%;
 }
 .foot{
-  background: #ff1a40;
+  
+  background: #174375;
   margin-top: %;
   /*height: 150px;*/
 }
