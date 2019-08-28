@@ -8,11 +8,16 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
+header{
+  background-color: #96a5e030;
+}
+/*nav{
+  background-color: #96a5e030;
+}*/
 h1{
     font: 35px 'Ayuthaya', sans-serif;
     color: #e552b6;
-    background: url('../imagenes/elefante-2.png') no-repeat center center;
+    background: url('../imagenes/elefante-3.png') no-repeat center center;
     width: 563px;
     height: 104px;
     margin: 0 auto;
@@ -45,7 +50,7 @@ h2{
 
 .navbar-link{
 padding:15px 5px;transition:0.2s;
-color:#96a5e0;
+color:#e552b6;
 font-size: 25px;
 }
 
@@ -61,12 +66,17 @@ font-size: 25px;
   width:100%;
   height:51px; 
   border-bottom: .25rem solid transparent;
-  border-bottom-color: #4A90E2;
+  border-bottom-color: #96a5e0;
    
+}
+.submenu-1{
+  padding: 1%;
+  padding-bottom: 2%;
+  background: #f3f3f3;
 }
 .submenu{
   padding: 1%;
- /* background: #E6F9F5;*/
+
 }
 
 .navbar-nav{
@@ -185,15 +195,15 @@ font: 20px 'Ayuthaya', sans-serif;
   width: 30px;
 }
 .logo{
-  background-color: #ff1a402e;
+  background-color:#dbe0f4;
   padding: 15px;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
  p .logo{
   display:none;
   font: 30px 'Ayuthaya', sans-serif;
   color: #4A90E2;
-  background: url('../imagenes/elefante-2.png') no-repeat center center;
+  background: url('../imagenes/elefante-3.png') no-repeat center center;
   width: 563px;
   height: 104px;
   margin: 0 auto;
@@ -205,12 +215,12 @@ display:none;
 }
 .descarga{
 margin-left: 1.5%;
-color:#BD10E0 !important;
+color:#e552b6!important;
 }
 
 .tit-2{
   color:#4A90E2;
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 20px;
   text-align: left;
  
@@ -246,9 +256,12 @@ color:#BD10E0 !important;
 }
 
 .tit-bice{
-  margin: 2%;
+  margin: 3%;
 }
 .tit-cont{
+color:#e552b6;
+}
+.tit-cont a{
 color:#e552b6;
 }
 
@@ -259,7 +272,7 @@ margin-bottom: 1rem;
 }
 
 .title-3{
-  color:#e552b6;
+  color:#4A90E2;
   font-size: 14px;
 
 }
@@ -295,8 +308,8 @@ display: none;
 .box9:hover .icon li{opacity:1;transform:translateY(0)}
 .box9:hover .icon li:first-child{transition-delay:.1s}
 .box9:hover .icon li:nth-child(2){transition-delay:.2s}
-.box9 .icon li a{display:block;width:35px;height:35px;background:#f39c12;font-size:20px;color:#000;margin-right:5px;transition:all .35s ease 0s}
-.box9 .icon a:hover{background:#fff}
+.box9 .icon li a{display:block;width:35px;height:35px;background:#dbe0f4;font-size:20px;color:#000;margin-right:5px;transition:all .35s ease 0s}
+.box9 .icon a:hover{background:#e552b68a}
 
 @media only screen and (max-width:990px){
   .box9{margin-bottom:20px; width: 100%;}
@@ -326,8 +339,10 @@ display: none;
 
 }
 
+
 .enlace{
-  color:#4A90E2;
+ color:#e552b6;
+   /*color:#4A90E2;*/
   font-size: 20px;
 }
 .laminas{
@@ -350,7 +365,7 @@ width: 100%;
   margin-left: 1rem;
 }
 .fa-external-link-alt{
-  color:#4A90E2;
+  color:#e552b6;
   margin-right: .5rem;
 }
 
